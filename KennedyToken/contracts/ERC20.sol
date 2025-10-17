@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Alireza
+// SPDX-License-Identifier: MIT
 
 pragma solidity 0.8.30;
 
@@ -104,4 +104,5 @@ function burn(address account , uint256 amount) public {
         _totalSupply -= amount;
         emit Transfer(account , address(0), amount);
 }
+
 }
